@@ -1,23 +1,25 @@
-package com.muayversern
+  package com.muayversern
 
-import android.app.Application
-import com.facebook.react.PackageList
-import com.facebook.react.ReactApplication
-import com.facebook.react.ReactHost
-import com.facebook.react.ReactNativeApplicationEntryPoint.loadReactNative
-import com.facebook.react.ReactNativeHost
-import com.facebook.react.ReactPackage
-import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
-import com.facebook.react.defaults.DefaultReactNativeHost
+  import android.app.Application
+  import com.facebook.react.PackageList
+  import com.facebook.react.ReactApplication
+  import com.facebook.react.ReactHost
+  import com.facebook.react.ReactNativeApplicationEntryPoint.loadReactNative
+  import com.facebook.react.ReactNativeHost
+  import com.facebook.react.ReactPackage
+  import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
+  import com.facebook.react.defaults.DefaultReactNativeHost
+  import com.muayversern.MuayPosePackage
 
 class MainApplication : Application(), ReactApplication {
 
   override val reactNativeHost: ReactNativeHost =
       object : DefaultReactNativeHost(this) {
         override fun getPackages(): List<ReactPackage> =
-            PackageList(this).packages.apply {
+            PackageList(this).packages.toMutableList().apply {
               // Packages that cannot be autolinked yet can be added manually here, for example:
               // add(MyReactNativePackage())
+              add(MuayPosePackage())
             }
 
         override fun getJSMainModuleName(): String = "index"

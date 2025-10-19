@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "815693339400",
+    "project_id": "muayverse-923de",
+    "storage_bucket": "muayverse-923de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815693339400:android:98be5a27080e8a2ca9eabd",
+        "android_client_info": {
+          "package_name": "com.muayversern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815693339400-qinlcbclai04h7jt9p1td8o9088oredl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muayversern",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "815693339400-u28qp5la7s0b477tnhdl7ap88ouinn17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muayversern",
+            "certificate_hash": "3b088c2dce982c71918885b405bded1299ae0b68"
+          }
+        },
+        {
+          "client_id": "815693339400-g8ri9762erus2tlli3qrvtailrtikdgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCncvgPf2pUmvN3akCRep0uOAp2OiP7gqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815693339400-g8ri9762erus2tlli3qrvtailrtikdgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
